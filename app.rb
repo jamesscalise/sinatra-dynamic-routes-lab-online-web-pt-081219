@@ -28,13 +28,14 @@ class App < Sinatra::Base
     @word3 = params[:word3]
     @word4 = params[:word4]
     @word5 = params[:word5]
-    string = ""
+    string = []
     string << @word1
     string << @word2
     string << @word3
     string << @word4
     string << @word5
-    string
+    string1 = string.join(" ")
+    string1
     
   end
   
