@@ -30,6 +30,11 @@ class App < Sinatra::Base
     @word5 = params[:word5]
     string = ""
     string << @word1
+    string << @word2
+    string << @word3
+    string << @word4
+    string << @word5
+    string
     
   end
   
