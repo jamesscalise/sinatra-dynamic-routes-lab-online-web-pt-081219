@@ -35,6 +35,7 @@ class App < Sinatra::Base
     string << @word4
     string << @word5
     string1 = string.join(" ")
+    string1 << "."
     string1
     
   end
